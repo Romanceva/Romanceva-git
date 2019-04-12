@@ -1,0 +1,13 @@
+* {margin:0; padding:0;}
+ul.werh {list-style-type:none; display:inline-block;}
+header {background-image:url("../img/01.jpg"); opacity:0.8;}
+h1.promo-block-title {
+    text-align: center;
+    height:500px;
+    vertical-align: middle;
+    font-size: 70px;
+}
+p.promo-block-text {
+    text-align: center;
+    font-size: 30px;
+    }
