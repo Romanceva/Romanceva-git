@@ -10,12 +10,13 @@ header {
     background: url('../img/01.jpg') no-repeat;
     background-position: top center;
 }
-h1.promo-block-title {
+div.promo-block-title {
     color: #fff;
     text-align:center;
-    font-size:70px;
-    vertical-align:middle;
-    height:500px;
+    font-size:50px;
+    vertical-align: center;
+    height:200px;
+    margin-top: 300px;
 }
 p.promo-block-text {
     text-align: center;
@@ -24,7 +25,6 @@ p.promo-block-text {
 }
 div.button {
     text-align:center;
-    vertical-align:middle;
     height:150px;
 }
 .images-inline__item {
@@ -49,9 +49,18 @@ div.button {
     padding: 20px;
 }
 .logo,
-.navbar {
-    display: inline-block;
-}
+.navbar,
+.footer{
+    display: inline-block
+   }
 .navbar{
     float: right;
+}
+div.footer {
+    float: right;
+  }
+div.centerpart {
+    text-align: center;
+    margin-top: 60px;
+    height:150px;
 }
